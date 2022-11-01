@@ -24,3 +24,14 @@ extension Journey: Hashable, Identifiable {
     hashValue
   }
 }
+
+extension Journey {
+  public static let example = Journey(using: .walkOrRun)
+  
+  public static let examples = [
+    Journey(using: .walkOrRun),
+    Journey(using: .bike),
+    Journey(using: .sharedRide),
+    Journey(using: .bike)
+  ]
+}

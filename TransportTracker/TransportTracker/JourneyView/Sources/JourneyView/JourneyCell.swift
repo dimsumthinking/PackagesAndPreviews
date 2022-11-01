@@ -30,7 +30,7 @@ extension JourneyCell: View {
 struct JourneyCell_Previews: PreviewProvider {
   static var previews: some View {
     List {
-      JourneyCell(journey: Journey(using: .scooter))
+      JourneyCell(journey: Journey.example)
     }
   }
 }
